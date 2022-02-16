@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NuGetDemo.Web", "Applications\NuGetDemo.Web\NuGetDemo.Web.csproj", "{D67D79E4-F7A5-4C80-8592-B78D697A9DF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spaanjaars.Toolkit", "Applications\Spaanjaars.Toolkit\Spaanjaars.Toolkit.csproj", "{785A4441-F4F2-42A7-9DEC-EB686C6CE5F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spaanjaars.FileProviders.Infrastructure", "Applications\Spaanjaars.FileProviders.Infrastructure\Spaanjaars.FileProviders.Infrastructure.csproj", "{3FE59C60-13CE-42A1-A8EB-1092940C0ED5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spaanjaars.FileProviders.FileSystem", "Applications\Spaanjaars.FileProviders.FileSystem\Spaanjaars.FileProviders.FileSystem.csproj", "{16D25A4E-A25F-4A9C-B330-92F28FF95BE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spaanjaars.FileProviders.Azure", "Applications\Spaanjaars.FileProviders.Azure\Spaanjaars.FileProviders.Azure.csproj", "{5B6A12B3-1B11-425A-9327-33A7392529DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D67D79E4-F7A5-4C80-8592-B78D697A9DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67D79E4-F7A5-4C80-8592-B78D697A9DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67D79E4-F7A5-4C80-8592-B78D697A9DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67D79E4-F7A5-4C80-8592-B78D697A9DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{785A4441-F4F2-42A7-9DEC-EB686C6CE5F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{785A4441-F4F2-42A7-9DEC-EB686C6CE5F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{785A4441-F4F2-42A7-9DEC-EB686C6CE5F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{785A4441-F4F2-42A7-9DEC-EB686C6CE5F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE59C60-13CE-42A1-A8EB-1092940C0ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE59C60-13CE-42A1-A8EB-1092940C0ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE59C60-13CE-42A1-A8EB-1092940C0ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE59C60-13CE-42A1-A8EB-1092940C0ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D25A4E-A25F-4A9C-B330-92F28FF95BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D25A4E-A25F-4A9C-B330-92F28FF95BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D25A4E-A25F-4A9C-B330-92F28FF95BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D25A4E-A25F-4A9C-B330-92F28FF95BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6A12B3-1B11-425A-9327-33A7392529DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6A12B3-1B11-425A-9327-33A7392529DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6A12B3-1B11-425A-9327-33A7392529DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6A12B3-1B11-425A-9327-33A7392529DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BB52937-2F6A-4BF6-9D02-7BFDF2AC6109}
+	EndGlobalSection
+EndGlobal

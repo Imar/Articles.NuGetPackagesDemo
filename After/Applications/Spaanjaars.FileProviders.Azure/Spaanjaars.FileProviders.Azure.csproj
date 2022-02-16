@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Spaanjaars.FileProviders.Azure</PackageId>
+    <AssemblyVersion>2.0.2.0</AssemblyVersion>
+    <Version>$(AssemblyVersion)</Version>
+    <Authors>Imar Spaanjaars</Authors>
+    <IsPackable>true</IsPackable>
+    <Description>Provides an implementation of IFileProvider targeting Azure blob storage.</Description>
+    <PackageIcon>Dvk.png</PackageIcon>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Dvk.png" Pack="True" Visible="false" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.10.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Spaanjaars.FileProviders.Infrastructure" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>

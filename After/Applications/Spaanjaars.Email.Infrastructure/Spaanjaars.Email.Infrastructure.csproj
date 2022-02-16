@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Spaanjaars.Email.Infrastructure</PackageId>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <Version>$(AssemblyVersion)</Version>
+    <Authors>Imar Spaanjaars</Authors>
+    <IsPackable>true</IsPackable>
+    <Description>Provides infrastructure types for mail handling.</Description>
+    <PackageIcon>Dvk.png</PackageIcon>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Dvk.png" Pack="True" Visible="false" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

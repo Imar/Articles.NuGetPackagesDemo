@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spaanjaars.FileProviders.Infrastructure", "Applications\Spaanjaars.FileProviders.Infrastructure\Spaanjaars.FileProviders.Infrastructure.csproj", "{3FE59C60-13CE-42A1-A8EB-1092940C0ED5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spaanjaars.FileProviders.FileSystem", "Applications\Spaanjaars.FileProviders.FileSystem\Spaanjaars.FileProviders.FileSystem.csproj", "{16D25A4E-A25F-4A9C-B330-92F28FF95BE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spaanjaars.FileProviders.Azure", "Applications\Spaanjaars.FileProviders.Azure\Spaanjaars.FileProviders.Azure.csproj", "{5B6A12B3-1B11-425A-9327-33A7392529DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spaanjaars.Email.Infrastructure", "Applications\Spaanjaars.Email.Infrastructure\Spaanjaars.Email.Infrastructure.csproj", "{3D62EBB2-A2ED-497F-BEBE-3EAEE8625C37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spaanjaars.Email.SendGrid", "Applications\Spaanjaars.Email.SendGrid\Spaanjaars.Email.SendGrid.csproj", "{55029DB1-3E30-415C-84C3-6CE01F99B9DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spaanjaars.Email.MailKit", "Applications\Spaanjaars.Email.MailKit\Spaanjaars.Email.MailKit.csproj", "{4EDD6800-30A5-485D-B078-C132E7408D43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spaanjaars.Email.Smtp", "Applications\Spaanjaars.Email.Smtp\Spaanjaars.Email.Smtp.csproj", "{C2E71564-2AF8-43B5-A86D-A9DFF5C79BB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spaanjaars.Email.Development", "Applications\Spaanjaars.Email.Development\Spaanjaars.Email.Development.csproj", "{5F3F2A85-1F34-424B-9AAA-D5171A9348CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8BF9E210-41E2-44BA-897F-9F4F4A11436E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spaanjaars.Email.Infrastructure.Tests", "Tests\Spaanjaars.Email.Infrastructure.Tests\Spaanjaars.Email.Infrastructure.Tests.csproj", "{0C3FB174-0E77-4B34-AF9B-7BBD9651EACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FE59C60-13CE-42A1-A8EB-1092940C0ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE59C60-13CE-42A1-A8EB-1092940C0ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE59C60-13CE-42A1-A8EB-1092940C0ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE59C60-13CE-42A1-A8EB-1092940C0ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D25A4E-A25F-4A9C-B330-92F28FF95BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D25A4E-A25F-4A9C-B330-92F28FF95BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D25A4E-A25F-4A9C-B330-92F28FF95BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D25A4E-A25F-4A9C-B330-92F28FF95BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6A12B3-1B11-425A-9327-33A7392529DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6A12B3-1B11-425A-9327-33A7392529DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6A12B3-1B11-425A-9327-33A7392529DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6A12B3-1B11-425A-9327-33A7392529DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D62EBB2-A2ED-497F-BEBE-3EAEE8625C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D62EBB2-A2ED-497F-BEBE-3EAEE8625C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D62EBB2-A2ED-497F-BEBE-3EAEE8625C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D62EBB2-A2ED-497F-BEBE-3EAEE8625C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55029DB1-3E30-415C-84C3-6CE01F99B9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55029DB1-3E30-415C-84C3-6CE01F99B9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55029DB1-3E30-415C-84C3-6CE01F99B9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55029DB1-3E30-415C-84C3-6CE01F99B9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EDD6800-30A5-485D-B078-C132E7408D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EDD6800-30A5-485D-B078-C132E7408D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EDD6800-30A5-485D-B078-C132E7408D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EDD6800-30A5-485D-B078-C132E7408D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E71564-2AF8-43B5-A86D-A9DFF5C79BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E71564-2AF8-43B5-A86D-A9DFF5C79BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E71564-2AF8-43B5-A86D-A9DFF5C79BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E71564-2AF8-43B5-A86D-A9DFF5C79BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3F2A85-1F34-424B-9AAA-D5171A9348CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3F2A85-1F34-424B-9AAA-D5171A9348CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3F2A85-1F34-424B-9AAA-D5171A9348CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3F2A85-1F34-424B-9AAA-D5171A9348CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C3FB174-0E77-4B34-AF9B-7BBD9651EACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3FB174-0E77-4B34-AF9B-7BBD9651EACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3FB174-0E77-4B34-AF9B-7BBD9651EACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3FB174-0E77-4B34-AF9B-7BBD9651EACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C3FB174-0E77-4B34-AF9B-7BBD9651EACD} = {8BF9E210-41E2-44BA-897F-9F4F4A11436E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BB52937-2F6A-4BF6-9D02-7BFDF2AC6109}
+	EndGlobalSection
+EndGlobal

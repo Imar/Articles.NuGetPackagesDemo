@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spaanjaars.Email.Development" Version="2.0.1" />
+    <PackageReference Include="Spaanjaars.Email.SendGrid" Version="1.2.1" />
+    <PackageReference Include="Spaanjaars.Email.Smtp" Version="1.1.4" />
+    <PackageReference Include="Spaanjaars.FileProviders.FileSystem" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>

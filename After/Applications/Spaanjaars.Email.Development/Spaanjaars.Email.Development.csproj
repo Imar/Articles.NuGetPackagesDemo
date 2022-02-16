@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Spaanjaars.Email.Development</PackageId>
+    <AssemblyVersion>2.0.1.0</AssemblyVersion>
+    <Version>$(AssemblyVersion)</Version>
+    <Authors>Imar Spaanjaars</Authors>
+    <IsPackable>true</IsPackable>
+    <Description>Provides various implementations of IMailSender for development purposes.</Description>
+    <PackageReleaseNotes>Demo release notes</PackageReleaseNotes>
+    <PackageIcon>Dvk.png</PackageIcon>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Dvk.png" Pack="True" Visible="false" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
+    <PackageReference Include="Spaanjaars.Email.Infrastructure" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
